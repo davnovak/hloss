@@ -1,0 +1,13 @@
+Package: hloss
+Title: Clustering Evaluation and Hierarchy-Aware Quality Assessment
+Version: 0.0.0.9000
+Authors@R: 
+    person("David", "Novak", , "david.novak@ugent.be", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4574-9093"))
+Imports: igraph, Matrix, clue, pheatmap, RColorBrewer, cowplot, grid, stats, caret, pheatmap
+Description: Visualises local over-clustering and under-clustering and compares output of classification/clustering with ground-truth labels that are hierarchical (a multi-level taxonomy of labels is given).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
